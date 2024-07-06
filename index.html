@@ -5,45 +5,33 @@
 <meta lang="en">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="مركزية.css" type="text/css">
 <link rel="stylesheet" type="text/css" href="index.css">
 <body>
 
-<div class="w3-sidebar w3-bar-block  w3-card"  class="sid">
+<div  class="sid">
+  <div class="top" >
 
-  <h2 class="w3-bar-item" style="font-weight: bold;margin: 0px;text-align: center;">North Oil Company</h2>
-  <hr style="padding: 0px; margin:0px;">
-  <button  style="text-align: center;" class="w3-bar-item w3-button tablink" onclick="openLink(event, 'Fade')"><p>نتائج الدورات المركزية</p></button>
-  <hr style="padding: 0px; margin:0px;">
-  <button style="text-align: center;" class="w3-bar-item w3-button tablink" onclick="openLink(event, 'Zoom')"><p>نتائج الدورات الموقعية</p></button>
-  <hr style="padding: 0px; margin:0px;">
-  <button style="text-align: center;" class="w3-bar-item w3-button tablink" onclick="openLink(event, 'Top')"><p>نتائج الدورات الالكترونية</p></button>
-  <hr style="padding: 0px; margin:0px;">
-  <button style="text-align: center;" class="w3-bar-item w3-button tablink" onclick="openLink(event, 'Left')"><p>نتائج الدورات الاخرى</p></button>
-  <hr style="padding: 0px; margin:0px;">
+    <h2 class="topname" style="text-align: left;">شركة نفط الشمال (شركة عامة) <a href="#" onclick="window.history.back(); return false;" style="margin-right: 7%;"><button class="btn"><i class="fa fa-home"></i> Home</button></a></h2>
+
+    <br>
+   <img src="noc.jpg" style="width: 45%; border-radius: 50%;border: none;">
+</div><br>
+  <button  style="text-align: center; background-color: cadetblue;border-radius: 15%;padding: 5px;margin: 5px;" class="w3-bar-item w3-button tablink" onclick="openLink(event, 'Fade')"><p>نتائج الدورات المركزية</p></button>
+  <button style="text-align: center; background-color: cadetblue;border-radius: 15%;padding: 5px;margin: 5px;" class="w3-bar-item w3-button tablink" onclick="openLink(event, 'Zoom')"><p>نتائج الدورات الموقعية</p></button>
+  <button style="text-align: center; background-color: cadetblue;border-radius: 15%;padding: 5px;margin: 5px;" class="w3-bar-item w3-button tablink" onclick="openLink(event, 'Top')"><p>نتائج الدورات الالكترونية</p></button>
+  <button style="text-align: center; background-color: cadetblue;border-radius: 15%;padding: 5px;margin: 5px;" class="w3-bar-item w3-button tablink" onclick="openLink(event, 'Left')"><p>نتائج الدورات الاخرى</p></button>
 
   
   <br>
-  
-  <div style="text-align: center;">
-    <a href="#" onclick="window.history.back(); return false;" ><button type="buttons" class="back" style="font-size: 1.2em;">رجــوع</button></a>
-  </div>
+  <hr style="color: cadetblue;border: 3px solid; width: 100%;">
 
-  <div style="text-align: center;">
-    <br>
-  <footer>
-  <p style="font-size: 0.5em;"> By: Eng.Sarah Hamoud Hussien</p>
-  </footer>
-  </div>
+  
 </div>
 
-<div  class="sid2">
-  <div class="top">
+<div>
 
-      <h2 class="topname">شركة نفط الشمال<br></h2>
-      <br>
-     <img src="noc.jpg" style="width: 50%; border-radius: 50%;border: none;">
-  </div>
 
   <div id="Fade" class="w3-container city w3-animate-opacity" style="display:none">
     <div class="top">
@@ -779,10 +767,11 @@
                                           </div>
                                           </div><br>
 
-</div></div>
+  </div>
+</div>
 
 
-<div id="Top" class="w3-container city w3-animate-top" style="display:none">
+ <div id="Top" class="w3-container city w3-animate-top" style="display:none">
   <div class="top">
     
        <h2>الدورات الالكترونية لشركة نفط الشمال 2024 </h2>
@@ -793,10 +782,10 @@
           </div>
       </div>
 
-</div>
-</div>
+ </div>
+ </div>
 
-<div id="Left" class="w3-container city w3-animate-left" style="display:none">
+ <div id="Left" class="w3-container city w3-animate-left" style="display:none">
   <div class="top">
     
        <h2>الدورات الاخرى 2024 </h2>
